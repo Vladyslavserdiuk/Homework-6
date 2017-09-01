@@ -1,0 +1,51 @@
+*{
+	border: 0;
+}
+table {
+  border-collapse: collapse;
+  text-align: left;
+}
+th {
+  padding: 10px 8px;
+}
+td {
+  padding: 9px 8px;
+}
+td:nth-last-child(1n+5):first-child{
+	color: red;
+}
+tr:nth-child(-1n+3) {
+border-bottom: 1px solid #9b9b9b;;
+}
+button{
+	color: white;
+	text-align: center;
+}
+.delete{
+	height: 25px;
+	background: #d13030;
+}
+.plusminus{
+	width: 26px;
+	height: 26px;
+	background: red;
+} 
+}
+span{
+	font-weight: bold;
+}
+.discount{
+    border-right: 3px solid #9b9b9b;  
+	text-align: right;
+
+}
+.discount p:nth-child(2){
+	color: #9b9b9b;
+}
+  p {
+    margin-top: 0.5em;
+    margin-bottom: 1em;
+   }
+.basket{
+	color: red;
+}
